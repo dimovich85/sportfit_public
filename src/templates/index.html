@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="./img/icons/favicon1.ico">
+	<title>Sportfit</title>
+	<link rel="stylesheet" href="./css/styles.css">
+
+	<!-- HTML5 shim and Respond.js-->
+	<!-- [if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<! [endif]-->	
+
+</head>
+<body>
+
+<header class="header-info" role="contentinfo">
+	<div class="wrapper ">
+		<ul class="header-info__ul">
+			<li class="header-info__li">
+				<span class="header-info__icon icon icon_small" aria-label="Іконка для розкладу">
+					{% include "./include/ico-time.svg" %}
+				</span>
+				<span class="header-info__text">Пн-Пт 07:00-22:00,  Сб-Вс 09:00-21:00</span>
+			</li>
+			<li class="header-info__li">
+				<span class="header-info__icon icon icon_small" aria-label="Іконка для адреси">
+					{% include "./include/ico-adress.svg" %}
+				</span>
+				<span class="header-info__text">Вул. Прирічна 11</span>
+			</li>
+			<li class="header-info__li">
+				<a href="tel:(044) 464-00-89" class="header-info__link">
+					<span class="header-info__icon icon icon_small" aria-label="Іконка для телефону">
+						{% include "./include/ico-phone.svg" %}
+					</span>
+					(044) 464-00-89
+				</a>
+			</li>
+			<li class="header-info__li">
+				<a href="tel:(093) 180-06-28" class="header-info__link">
+					<span class="header-info__icon icon icon_small" aria-label="Іконка для телефону">
+						{% include "./include/ico-phone.svg" %}
+					</span>
+					(093) 180-06-28
+				</a>
+			</li>
+		</ul>
+		<button class="d-n header-info__btn btn_modal" data-target="header">
+			<span class="sr-only">Відкрити</span>
+			<span class="header-info__btnico icon icon-small" aria-label="Іконки">
+				{% include "./include/ico-time.svg" %}
+			</span>
+			<span class="header-info__btnico icon icon-small" aria-label="Іконки">
+				{% include "./include/ico-adress.svg" %}
+			</span>
+			<span class="header-info__btnico icon icon-small" aria-label="Іконки">
+				{% include "./include/ico-phone.svg" %}
+			</span>
+		</button>
+	</div>
+</header>
+
+<section class="first-screen">
+	<div class="wrapper pos-r">
+		<nav class="navigation" role="navigation">
+			<ul class="navigation__ul navigation__ul_home">
+				<li class="navigation__li_home">
+					<a href="index.html" class="navigation__link navigation__link_home" tabindex="-1">
+						<figure class="header-navbar__logo">
+							{% include "./include/logo.svg" %}
+							<figcaption class="sr-only">Домашня сторінка</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+			<ul class="navigation__ul navigation__ul_nav">
+				<li class="navigation__li">
+					<a href="#about" class="navigation__link">
+						Про клуб
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#services" class="navigation__link">
+						Послуги
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#prices" class="navigation__link">
+						Ціни
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#trainers" class="navigation__link">
+						Тренери
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#contacts" class="navigation__link">
+						Контакти
+					</a>
+				</li>
+			</ul>
+			<button class="navigation__btn navigation__btn_humb btn_modal icon icon_small" data-target="humb">
+				<span class="sr-only">Мобільне меню навігації по сторінці</span>
+				{% include "./include/humb.svg" %}
+			</button>
+		</nav>
+
+		<article class="banner">
+			<h5 class="banner__h tt-u">
+				<span class="banner__span d-b">Твій фітнес клуб завжди поруч</span>
+				будь у формі <span class="banner__span_end d-b">будь сильніше</span>
+			</h5>
+			<a href="#about" class="banner__link btn btn_link">
+				<img src="./img/svg/arrow.svg" alt="Іконка - стрілка" class="icon btn__icon">
+				<span class="tt-u">вперед</span>
+			</a>
+		</article>
+	</div>
+</section>
+
+<main id="about" class="about">
+	<h1 class="sr-only">Спортивний клуб SPORTFIT</h1>
+	<div class="wrapper">
+		<article class="about-article row">
+			<figure class="about-article__logo">
+				<figcaption class="about-article__figcaption">
+					Ласкаво просимо
+				</figcaption>
+				<img src="./img/svg/logo-about.svg" alt="Логотип Sportfit" class="about-article__img">
+			</figure>
+			<p class="about-article__p">
+				Спортивний клуб SPORTFIT існує вже більше 5 років. За цей час велика кількість відвідувачів отримали позитивний результат від своїх тренувань.  Ми пропонуємо відвідувати просторий та укомплектований тренажерний зал  з персональними тренерами, масаж, групові заняття (фітнес), заняття єдиноборствами в групах і персонально, і велика кількість тренувань для дітей. В кожен абонемент входить відвідування фінської сауни
+			</p>
+		</article>
+	</div>
+</main>
+
+<section id="services" class="services">
+	<div class="wrapper">
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service1.jpg" alt="Тренажерна зала" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h4 class="service__h4">Персональні тренування</h4>
+				<h3 class="service__h3">01. Тренажерна зала</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service2.jpg" alt="Жіночий фітнес" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h4 class="service__h4">Групові заняття</h4>
+				<h3 class="service__h3">02. Жіночий фітнес</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+				<button data-target="schedule20" class="btn service__btn btn_modal">
+					<img src="./img/svg/arrow.svg" alt="Іконка - стрілка" class="icon btn__icon">
+					<span class="tt-u">Дізнатись розклад</span>
+				</button>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service3.jpg" alt="Єдиноборства" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h4 class="service__h4">Персональні тренування</h4>
+				<h3 class="service__h3">03. Єдиноборства</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+				<button data-target="schedule21" class="btn service__btn btn_modal">
+					<img src="./img/svg/arrow.svg" alt="Іконка - стрілка" class="icon btn__icon">
+					<span class="tt-u">Дізнатись розклад</span>
+				</button>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service4.jpg" alt="Дитячі заняття" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h4 class="service__h4">Групові заняття</h4>
+				<h3 class="service__h3">04. Дитячі заняття</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+				<button data-target="schedule" class="btn service__btn btn_modal">
+					<img src="./img/svg/arrow.svg" alt="Іконка - стрілка" class="icon btn__icon">
+					<span class="tt-u">Дізнатись розклад</span>
+				</button>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service5.jpg" alt="Масаж" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h3 class="service__h3">05. Масаж</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service6.jpg" alt="Сауна" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h3 class="service__h3">06. Сауна</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+			</div>
+		</article>
+		<article class="service">
+			<figure class="service__figure">
+				<img src="./img/service7.jpg" alt="Фітобар" class="service__img">
+			</figure>
+			<div class="service__wrap">
+				<h3 class="service__h3">07. Фітобар</h3>
+				<p class="service__p">Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст."</p>
+			</div>
+		</article>
+	</div>
+</section>
+
+<section id="prices" class="prices">
+	<div class="wrapper">
+		<h2 class="prices__h">
+			<span class="prices__span_h d-b">
+				Оберіть свою
+			</span>
+			Клубну карту
+		</h2>
+		<div class="row">
+			<section class="card">
+				<h3 class="card__h tt-u">ПОВНИЙ ДЕНЬ</h3>
+				<p class="card__p">7:00-22:00</p>
+				<ul class="card__ul">
+					<li class="card__li">Безліміт відвідувань клубу</li>
+					<li class="card__li">Вступний інструктаж</li>
+					<li class="card__li">2 групових заняття на день</li>
+					<li class="card__li">Сауна</li>
+				</ul>
+				<h4 class="card__price">800 грн.</h4>
+				<button data-target="prices" class="btn card__btn tt-u btn_modal">
+					<img src="./img/svg/arrow.svg" alt="Іконка - стрілка"  class="icon btn__icon">
+					<span class="ttu">Детальніше</span>
+				</button>
+			</section>
+			<section class="card">
+				<h3 class="card__h">Денный</h3>
+				<p class="card__p">10:00-17:00</p>
+				<ul class="card__ul">
+					<li class="card__li">Безліміт відвідувань клубу</li>
+					<li class="card__li">Вступний інструктаж</li>
+					<li class="card__li">1 групове заняття на день</li>
+					<li class="card__li">Сауна</li>
+				</ul>
+				<h4 class="card__price">500 грн.</h4>
+				<button data-target="prices" class="btn card__btn tt-u btn_modal">
+					<img src="./img/svg/arrow.svg" alt="Іконка - стрілка" class="icon btn__icon">
+					<span class="ttu">Детальніше</span>
+				</button>
+			</section>
+			<div class="btn-wrap">
+				<button data-target="prices" class="btn prices__btn tt-u btn_modal">
+					<span class="ttu">Подивитися ціни на всі послуги</span>
+				</button>
+			</div>
+		</div>
+	</div>	
+</section>
+
+<section id="trainers" class="trainers">
+	<div class="wrapper">
+		<h2 class="trainers__h">
+			Наші тренери
+		</h2>
+		<div class="row">
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach1.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Катерина Красько
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach2.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Сергій Химченко
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach3.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Світлана Лучкіна
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach1.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Катерина Красько
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach2.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Сергій Химченко
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach3.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Світлана Лучкіна
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach1.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Катерина Красько
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach2.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Сергій Химченко
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+			<article class="trainer">
+				<figure class="trainer__photo">
+					<img src="./img/coach3.jpg" alt="Тренер" class="trainer__img">
+					<figcaption class="trainer__name">
+						Світлана Лучкіна
+					</figcaption>
+				</figure>
+				<p class="trainer__p">
+					Вже давно відомо, що читабельний зміст буде заважати зосередитись
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section id="contacts" class="contacts">
+	<div class="wrapper">
+		<div class="row">
+			<a href="https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9F%D1%80%D0%B8%D1%80%D1%96%D1%87%D0%BD%D0%B0,+11,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.5156017,30.51575,19z/data=!4m5!3m4!1s0x40d4d23ce01b9d8d:0xd21628e666c602d0!8m2!3d50.5155369!4d30.5161121?hl=uk" class="contacts__map d-b" target="_blank" rel="noreferrer">
+				<span class="sr-only">Подивитись в Google Maps</span>
+			</a>
+			<section class="contacts-info" role="contentinfo">
+				<h2 class="contacts-info__h tt-u">Наші контакти</h2>
+				<p class="contacts-info__p">
+					<span class="icon icon_small contacts-info__ico">
+						{% include "./include/ico-adress.svg" %}
+					</span>
+					<span class="contacts-info__text">
+						Вул. Прирічна 11
+					</span>
+				</p>
+				<p class="contacts-info__p">
+					<span class="icon icon_small contacts-info__ico">
+						{% include "./include/ico-phone.svg" %}
+					</span>
+					<span class="contacts-info__text">
+						<a href="tel:0444640089" class="contacts-info__link contacts-info__text">Тел. (044) 464-00-89</a>,
+						<br>
+							<a href="tel:0931800628" class="contacts-info__link contacts-info__text">(093) 180-06-28</a>
+					</span>
+				</p>
+				<p class="contacts-info__p">
+					<span class="icon icon_small contacts-info__ico">
+						{% include "./include/ico-time.svg" %}
+					</span>
+					<span class="contacts-info__text">
+						Графік роботи:
+						<br>
+						Пн-Пт 07:00-22:00
+						<br>
+						Сб-Вс 09:00-21:00
+					</span>
+				</p>
+				<p class="contacts-info__p">
+					<span class="icon icon_small contacts-info__ico">
+						{% include "./include/ico-email.svg" %}
+					</span>
+					<a href="mailto:sportfit.obolon@gmail.com" class="contacts-info__text contacts-info__link">
+						Mail – sportfit.obolon@gmail.com
+					</a>
+				</p>
+				<p class="social-links contacts-info__p">
+                    <a href="https://www.instagram.com/sportfit.obolon/" target="_blank" class="social-links__a social-links__a_instagram" rel="noreferrer">
+                    	<span class="sr-only">
+		            		Шукайте нас у Instagram
+		            	</span>
+                    	{% include "./include/instagram.svg" %}
+                    </a>
+                    <a href="https://t.me/SportFitObolon" target="_blank" class="social-links__a social-links__a_telegram" rel="noreferrer">
+                    	<span class="sr-only" >
+		            		Шукайте нас у Telegram
+		            	</span>
+                    	{% include "./include/telegram.svg" %}
+                    </a>
+                </p>
+			</section>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<h6 class="footer__h">
+		copyright 2018 <button class="footer__btn btn_modal" data-target="credits">Всі права збережені</button>
+	</h6>
+</footer>
+
+<section class="modals d-n">
+	<div class="controls">
+		<button class="controls__btn controls__btn_closer">
+			{% include "./include/close.svg" %}
+		</button>
+	</div>
+
+	<section class="modal-content modal-credits">
+		<h2 class="modals__h">Копірайти</h2>
+		<div class="wrapper">
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/man">Man photo created by javi_indy - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/people">People photo created by peoplecreations - www.freepik.com</a>
+
+			<a href="https://www.freepik.com/free-photo/close-up-dumbbells-arranged-row-fitness-center_2543850.htm#term=gym&page=1&position=15" rel="noreferrer">Close-up dumbbels arranged row fitness center</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/man">Man photo created by senivpetro - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/people">People photo created by lyashenko - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/background">Background photo created by yanalya - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/people">People photo created by nensuria - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/people">People photo created by freepik - www.freepik.com</a>
+
+			<a rel="noreferrer" href="https://www.freepik.com/free-photos-vectors/food">Food photo created by freepik - www.freepik.com</a>
+
+		</div>
+	</section>
+
+	<section class="modal-content modal-schedule modal-schedule__style">
+		<h2 class="modal-prices__h modals__h">
+			Розклад
+		</h2>
+		<div class="modal-schedule__link_wrap">
+			<button class="modal-schedule__link_all btn_modal" data-target="prices">
+				Дивитись розклад усіх занять
+			</button>
+		</div>
+		<div class="tab tab_schedule">
+			<ul class="tab__head" role="tablist">
+				<li class="tab__li active tab__li_head" role="tab">
+					<a href="#monday" class="tab__a">
+						Пн
+					</a>
+				</li>
+				<li class="tab__li tab__li_head">
+					<a href="#tuesday" class="tab__a">
+						Вт
+					</a>
+				</li>
+				<li class="tab__li tab__li_head">
+					<a href="#wednesday" class="tab__a">
+						Ср
+					</a>
+				</li>
+				<li class="tab__li tab__li_head">
+					<a href="#thursday" class="tab__a">
+						Чт
+					</a>
+				</li>
+				<li class="tab__li tab__li_head">
+					<a href="#friday" class="tab__a">
+						Пт
+					</a>
+				</li>
+				<li class="tab__li tab__li_head">
+					<a href="#saturday" class="tab__a">
+						Сб
+					</a>
+				</li>
+			</ul>
+			<ul class="tab__content active" id="monday" role="tabpanel">
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						10:00-12:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Gym + Fit
+						</h4>
+						<p class="schedule__p">
+							с Литвиненко В.
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_step">
+							СТЕП зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						16:30 - 18:45
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Тэквондо
+						</h4>
+						<p class="schedule__p">
+							Филоненко О.
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_step">
+							СТЕП зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_soft">
+							Мягкий зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_soft">
+							Мягкий зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					
+				</li>
+			</ul>
+			<ul class="tab__content" id="tuesday" role="tabpanel">
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						10:00-12:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							TUESDAY
+						</h4>
+						<p class="schedule__p">
+							с Литвиненко В.
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_step">
+							СТЕП зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						16:30 - 18:45
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Тэквондо
+						</h4>
+						<p class="schedule__p">
+							Филоненко О.
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_step">
+							СТЕП зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_soft">
+							Мягкий зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_soft">
+							Мягкий зал
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+				<li class="tab__li tab__li_content">
+					<header class="schedule__header">
+						17:00 - 18:00
+					</header>
+					<article class="schedule__article">
+						<h4 class="schedule__h">
+							Детский фитнесс
+						</h4>
+						<p class="schedule__p">
+							с Иванко Вика
+						</p>
+					</article>
+					<footer class="schedule__footer">
+						<span class="schedule__span arena_box">
+							Бокс-ринг
+						</span>
+					</footer>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="modal-content modal-prices">
+		<h2 class="modal-prices__h modals__h">
+			Ціни
+		</h2>
+		<div class="block-prices">
+			<section class="card card-modal">
+				<h3 class="card__h card-modal__h tt-u">ПОВНИЙ ДЕНЬ</h3>
+				<p class="card__p card-modal__p">7:00-22:00</p>
+				<ul class="card__ul card-modal__ul">
+					<li class="card__li card-modal__li">Безліміт відвідувань клубу</li>
+					<li class="card__li card-modal__li">Вступний інструктаж</li>
+					<li class="card__li card-modal__li">2 групових заняття на день</li>
+					<li class="card__li card-modal__li">Сауна</li>
+				</ul>
+				<h4 class="card__price card-modal__price">
+					800 грн.
+				</h4>
+			</section>
+			<div class="table-wrap">
+				<table class="table-prices">
+					<thead class="table-prices__thead">
+						<tr class="table-prices__tr table-prices__tr_head">
+							<td class="table-prices__td table-prices__td_head">
+								Термін
+							</td>
+							<td class="table-prices__td table-prices__td_head">
+								Вартість
+							</td>
+							<td class="table-prices__td table-prices__td_head">
+								Бонус на депозит
+							</td>
+							<td class="table-prices__td table-prices__td_head">
+								В місяць
+							</td>
+						</tr>
+					</thead>
+					<tbody class="table-prices__tbody">
+						<tr class="table-prices__tr table-prices__tr_body">
+							<td class="table-prices__td table-prices__td_body">
+								1 місяць
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								800 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								200 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								600 грн.
+							</td>
+						</tr>
+						<tr class="table-prices__tr table-prices__tr_body">
+							<td class="table-prices__td table-prices__td_body">
+								3 місяць
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								2000 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								600 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								467 грн.
+							</td>
+						</tr>
+						<tr class="table-prices__tr table-prices__tr_body">
+							<td class="table-prices__td table-prices__td_body">
+								6 місяць
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								3500 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								1000 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								417 грн.
+							</td>
+						</tr>
+						<tr class="table-prices__tr table-prices__tr_body">
+							<td class="table-prices__td table-prices__td_body">
+								12 місяць
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								6000 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								2000 грн.
+							</td>
+							<td class="table-prices__td table-prices__td_body">
+								333 грн.
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<section class="modal-content modal-header">
+		<ul class="header-info__ul">
+			<li class="header-info__li">
+				<span class="header-info__icon icon icon_small" aria-label="Іконка для розкладу">
+					{% include "./include/ico-time.svg" %}
+				</span>
+				<span class="header-info__text">Пн-Пт 07:00-22:00,  Сб-Вс 09:00-21:00</span>
+			</li>
+			<li class="header-info__li">
+				<span class="header-info__icon icon icon_small" aria-label="Іконка для адреси">
+					{% include "./include/ico-adress.svg" %}
+				</span>
+				<span class="header-info__text">Вул. Прирічна 11</span>
+			</li>
+			<li class="header-info__li">
+				<a href="tel:(044) 464-00-89" class="header-info__link">
+					<span class="header-info__icon icon icon_small" aria-label="Іконка для телефону">
+						{% include "./include/ico-phone.svg" %}
+					</span>
+					(044) 464-00-89
+				</a>
+			</li>
+			<li class="header-info__li">
+				<a href="tel:(093) 180-06-28" class="header-info__link">
+					<span class="header-info__icon icon icon_small" aria-label="Іконка для телефону">
+						{% include "./include/ico-phone.svg" %}
+					</span>
+					(093) 180-06-28
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<section class="modal-content modal-humb">
+		<ul class="navigation__ul navigation__ul_nav">
+				<li class="navigation__li">
+					<a href="#about" class="navigation__link">
+						Про клуб
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#services" class="navigation__link">
+						Послуги
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#prices" class="navigation__link">
+						Ціни
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#trainers" class="navigation__link">
+						Тренери
+					</a>
+				</li>
+				<li class="navigation__li">
+					<a href="#contacts" class="navigation__link">
+						Контакти
+					</a>
+				</li>
+			</ul>
+	</section>
+
+	<section class="modal-content modal-schedule__style modal-schedule21">
+            <h2 class="modal-prices__h modals__h"> Розклад - Єдиноборства</h2>
+            <div class="modal-schedule__link_wrap">
+                <button class="modal-schedule__link_all btn_modal" data-target="schedule">
+                    Дивитись розклад усіх занять
+                </button>
+            </div>
+                        <div class="tab tab_schedule">
+                <ul class="tab__head" role="tablist">
+                                            <li class="tab__li tab__li_head active" role="tab">
+                            <a href="#01monday" class="tab__a" aria-label="Понеділок" title="Понеділок"> Пн </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#02tuesday" class="tab__a" aria-label="Вівторок" title="Вівторок"> Вт </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#03wednesday" class="tab__a" aria-label="Середа" title="Середа"> Ср </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#04thursday" class="tab__a" aria-label="Четверг" title="Четверг"> Чт </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#05friday" class="tab__a" aria-label="П'ятниця" title="П'ятниця"> Пт </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#06saturday" class="tab__a" aria-label="Субота" title="Субота"> Сб </a>
+                        </li>
+                                            <li class="tab__li tab__li_head " role="tab">
+                            <a href="#07sunday" class="tab__a" aria-label="Неділя" title="Неділя"> Нд </a>
+                        </li>
+                                    </ul>
+                                        <ul class="tab__content active" role="tabpanel" id="01monday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                19:00-20:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 БОКС 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:15-21:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Кікбоксинг 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="02tuesday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                19:00-20:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 ММА 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Соболєв Олександр                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_soft" style="color: #e8d651;">
+                                    М'який зал 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:00-21:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Бокс 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Васьковський Артем                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:30-21:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 CrossFit 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Вт, Чт  (CrossFit) 20:30-21:30                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="03wednesday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                19:00-20:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 БОКС 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:15-21:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Кікбоксинг 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="04thursday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                19:00-20:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 ММА 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Соболєв Олександр                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_soft" style="color: #e8d651;">
+                                    М'який зал 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:00-21:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Бокс 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Васьковський Артем                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:30-21:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 CrossFit 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Вт, Чт  (CrossFit) 20:30-21:30                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="05friday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                19:00-20:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 БОКС 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                20:15-21:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Кікбоксинг 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Федоренко Оксана                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="06saturday">
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                13:30-14:30  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 CrossFit 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Соболєв Олександр                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                15:00-17:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 ММА 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Соболєв Олександр                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_soft" style="color: #e8d651;">
+                                    М'який зал 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                15:00-16:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Бокс 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Васьковський Артем                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                16:00-18:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Бокс 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Васьковський Артем                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_box" style="color: #86ed6a;">
+                                    Зал Боксу 
+                                </span>
+                            </footer>
+                        </li>
+                                            <li class="tab__li tab__li_content">
+                            <header class="schedule__header">
+                                16:00-18:00  
+                            </header>
+                            <article class="schedule__article">
+                                <h4 class="schedule__h">
+                                 Теквондо 
+                                </h4>
+                                <p class="schedule__p">
+                                    з Особисте: Філоненко Олег                                </p>
+                            </article>
+                            <footer class="schedule__footer">
+                                <span class="schedule__span arena_step" style="color: #ea799b;">
+                                    Фітнес зал 
+                                </span>
+                            </footer>
+                        </li>
+                                        </ul>
+                                        <ul class="tab__content" role="tabpanel" id="07sunday">
+                                        </ul>
+                            </div>
+    </section>
+
+	<section class="modal-content modal-schedule__style modal-schedule20">
+        <h2 class="modal-prices__h modals__h"> Розклад - Жіночий фітнес</h2>
+        <div class="modal-schedule__link_wrap">
+            <button class="modal-schedule__link_all btn_modal" data-target="schedule">
+                Дивитись розклад усіх занять
+            </button>
+        </div>
+        <div class="tab tab_schedule">
+            <ul class="tab__head" role="tablist">
+                <li class="tab__li tab__li_head active" role="tab">
+                        <a href="#01monday" class="tab__a" aria-label="Понеділок" title="Понеділок"> Пн </a>
+                </li>
+                <li class="tab__li tab__li_head " role="tab">
+                    <a href="#02tuesday" class="tab__a" aria-label="Вівторок" title="Вівторок"> Вт </a>
+                </li>
+                                        <li class="tab__li tab__li_head " role="tab">
+                        <a href="#03wednesday" class="tab__a" aria-label="Середа" title="Середа"> Ср </a>
+                    </li>
+                                        <li class="tab__li tab__li_head " role="tab">
+                        <a href="#04thursday" class="tab__a" aria-label="Четверг" title="Четверг"> Чт </a>
+                    </li>
+                                        <li class="tab__li tab__li_head " role="tab">
+                        <a href="#05friday" class="tab__a" aria-label="П'ятниця" title="П'ятниця"> Пт </a>
+                    </li>
+                                        <li class="tab__li tab__li_head " role="tab">
+                        <a href="#06saturday" class="tab__a" aria-label="Субота" title="Субота"> Сб </a>
+                    </li>
+                                        <li class="tab__li tab__li_head " role="tab">
+                        <a href="#07sunday" class="tab__a" aria-label="Неділя" title="Неділя"> Нд </a>
+                    </li>
+                                </ul>
+                                    <ul class="tab__content active" role="tabpanel" id="01monday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            09:00-10:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             BTS 
+                            </h4>
+                            <p class="schedule__p">
+                                з Угольнікова Александра                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            10:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Gym + Fit (Комерційний) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Литвиненко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Фітбол (Авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Литвиненко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            19:00-20:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Functional 
+                            </h4>
+                            <p class="schedule__p">
+                                з Іванко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            20:00-21:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Step 
+                            </h4>
+                            <p class="schedule__p">
+                                з Тищенко Ольга                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="02tuesday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Pilates 
+                            </h4>
+                            <p class="schedule__p">
+                                з Особисте: Краснянська Валентина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            19:00-20:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TRXmix (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Голодович Ірина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            20:00-21:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Pilates 
+                            </h4>
+                            <p class="schedule__p">
+                                з Особисте: Краснянська Валентина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="03wednesday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            09:00-10:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             3х3 Interval 
+                            </h4>
+                            <p class="schedule__p">
+                                з Угольнікова Александра                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TRXmix (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Литвиненко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            19:00-20:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TBW 
+                            </h4>
+                            <p class="schedule__p">
+                                з Іванко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            20:00-21:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Йога 
+                            </h4>
+                            <p class="schedule__p">
+                                з Ільєнко Ольга                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="04thursday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Pilates 
+                            </h4>
+                            <p class="schedule__p">
+                                з Особисте: Краснянська Валентина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            19:00-20:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Functional Intensiv 
+                            </h4>
+                            <p class="schedule__p">
+                                з Голодович Ірина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            20:00-21:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Pilates (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Особисте: Краснянська Валентина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="05friday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            09:00-10:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TRXmix (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Угольнікова Александра                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            10:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Gym + Fit (Комерційний) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Литвиненко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             UBS+ABS 
+                            </h4>
+                            <p class="schedule__p">
+                                з Литвиненко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            19:00-20:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TRXmix (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Іванко Вікторія                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            20:00-21:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Stretching 
+                            </h4>
+                            <p class="schedule__p">
+                                з Голодович Ірина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="06saturday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            09:30-10:30  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Йога (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Ільєнко Ольга                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Step+BTS 
+                            </h4>
+                            <p class="schedule__p">
+                                з Тищенко Ольга                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            12:00-13:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Step (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Тищенко Ольга                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                                    <ul class="tab__content" role="tabpanel" id="07sunday">
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            10:00-11:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             TRX+ABS (авторський) 
+                            </h4>
+                            <p class="schedule__p">
+                                з Голодович Ірина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                        <li class="tab__li tab__li_content">
+                        <header class="schedule__header">
+                            11:00-12:00  
+                        </header>
+                        <article class="schedule__article">
+                            <h4 class="schedule__h">
+                             Stretching 
+                            </h4>
+                            <p class="schedule__p">
+                                з Голодович Ірина                                </p>
+                        </article>
+                        <footer class="schedule__footer">
+                            <span class="schedule__span arena_step" style="color: #ea799b;">
+                                Фітнес зал 
+                            </span>
+                        </footer>
+                    </li>
+                                    </ul>
+                        </div>
+    </section>
+</section>
+
+
+
+<script src="./js/js.js"></script>
+</body>
+</html>
